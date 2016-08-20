@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "DataTaipeiClassChanger",
+    "description": "Just change classification of data.taipei with better one.",
+    "version": "1.0",
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions":[
+        "webNavigation",
+        "webRequest",
+        "*://data.taipei/"
+    ]
+}
